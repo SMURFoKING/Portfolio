@@ -15,10 +15,13 @@ body{
   width: 100vw;
   background-color: rgb(40,43,47);
   margin: 0rem;
-  overflow: hidden;
+  overflow-x: hidden;
 
   font-family: "Courier New", monospace;
   color:antiquewhite;
+}
+#index {
+  overflow: hidden;
 }
 
 nav{
@@ -97,7 +100,7 @@ nav >ul > a {
   gap:4vmin;
   position: absolute;
   left:50%;
-  top:60%;
+  top:54%;
   transform: translate(0%, -50%);
 }
 #introduction{
@@ -116,7 +119,7 @@ nav >ul > a {
   top:20%;
   transform:translate(0%, 0%);
   overflow-y: visible;
-
+  overflow-x: hidden;
   font-size: 2vw;
 }
 #introduction>ul > span{
@@ -182,4 +185,13 @@ ul>div>img{
   width: 20vw;
 }
 
+#tutorial{
+  width: 100vw;
+  position: absolute;
+  top: 90%;
+  text-align: center;
 
+}
+#tutorial > span{
+  font-size: 1.2vw;
+}

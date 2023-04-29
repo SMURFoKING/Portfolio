@@ -1,0 +1,172 @@
+.image {
+    /* For Opera and <= IE9, we need to add unselectable="on" attribute onto each element */
+    /* Check this site for more details: http://help.dottoro.com/lhwdpnva.php */
+    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
+}
+
+body{
+  height:100vh;
+  width: 100vw;
+  background-color: rgb(40,43,47);
+  margin: 0rem;
+  overflow: hidden;
+
+  font-family: "Courier New", monospace;
+  color:antiquewhite;
+}
+
+nav{
+  height:12vh;
+  background-color:rgb(45,48,52);
+  border-color: rgb(45,48,52);
+  border-bottom: rgb(35,35,38);
+  border-width: 1px;
+  border-style: solid;
+}
+nav >ul{
+  height: 100%;
+  display:flex;
+  margin:0;
+  object-position: center;
+  justify-content: right;
+  padding:50px;
+}
+nav >ul > a {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  object-position: center;
+  padding-right: 40px;
+  height: 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 2vh;
+
+}
+#education{
+  overflow-y:visible;
+}
+
+#image-track > .projects > p{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  color:antiquewhite;
+  font-family: "Courier New", monospace;
+  position: absolute;
+  top:-13%;
+  font-size: 1.2vw;
+}
+#image-track > .projects > img{
+  width: 72vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: center;
+}
+#image-track > .projects > #satya{
+  object-position: 10% center;
+}
+#image-track > .projects > a{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: aqua;
+  font-size: 0.8vw;
+  padding: 0;
+  margin: 0;
+}
+#image-track{
+  display:flex;
+  gap:4vmin;
+  position: absolute;
+  left:50%;
+  top:60%;
+  transform: translate(0%, -50%);
+}
+#introduction{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  display: inline;
+  color:antiquewhite;
+  font-family: "Courier New", monospace;
+  position: absolute;
+  left:1vw;
+  top:20%;
+  transform:translate(0%, 0%);
+
+  font-size: 2vw;
+}
+#introduction > span{
+  font-size: 1vw;
+
+}
+
+.about-me-text{
+  position: absolute;
+  left: 1vw;
+  top:20%;
+  font-size: 2vw;
+}
+.project-title{
+  position: fixed;
+  top: 10vh;
+}
+ul{
+  padding-left: 2vw;
+}
+#soft-skills-div{
+  font-size: 1.2vw;
+  width: 40vw;
+  text-align: left;
+}
+.soft-skill-rating{
+  text-align: center;
+}
+
+ul > div{
+  font-family: Arial, monospace;
+  margin: 0px;
+  padding-bottom: 60px;
+  font-size: 1.2vw;
+
+}
+ul>div>span{
+  font-size: 1vw;
+}
+ul>div>img{
+  position: relative;
+  height: 16vw;
+  padding: 0.2vw;
+  background-color: gray;
+}
+.code{
+  height:32vw;
+}
+
+.selfie{
+  width: 20vw;
+}
+
+

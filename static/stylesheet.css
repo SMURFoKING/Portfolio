@@ -115,12 +115,25 @@ nav >ul > a {
   left:1vw;
   top:20%;
   transform:translate(0%, 0%);
+  overflow-y: visible;
 
   font-size: 2vw;
 }
-#introduction > span{
+#introduction>ul > span{
   font-size: 1vw;
-
+}
+#introduction > span{
+  font-size: 1.2vw;
+}
+#introduction >ul{
+  display:flow;
+  width: 18vw;
+}
+#introduction > img{
+  border-bottom: 2px solid antiquewhite;
+}
+#introduction > p{
+  margin-bottom: 0px;
 }
 
 .about-me-text{
@@ -141,7 +154,7 @@ ul{
   width: 40vw;
   text-align: left;
 }
-.soft-skill-rating{
+.soft-skills-rating{
   text-align: center;
 }
 

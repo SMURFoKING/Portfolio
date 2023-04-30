@@ -147,7 +147,7 @@ a{
   width: 18vw;
 }
 #introduction > img{
-  border-bottom: 2px solid antiquewhite;
+
 }
 #introduction > p{
   margin-bottom: 0px;
@@ -202,6 +202,7 @@ ul>div>img{
 
 .selfie{
   width: 20vw;
+  border-bottom: 2px solid antiquewhite;
 }
 
 #tutorial{

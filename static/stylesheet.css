@@ -244,3 +244,6 @@ ul>div>img{
 .text-holder{
   width:85vw;
 }
+.text >img{
+  width: 40vw;
+}

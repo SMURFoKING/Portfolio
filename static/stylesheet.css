@@ -55,7 +55,7 @@ nav >ul > a {
   color: white;
   text-decoration: none;
   font-size: 2.4vh;
-  font-family: "Courier New";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 #education{
@@ -97,6 +97,18 @@ nav >ul > a {
   padding: 0;
   margin: 0;
 }
+a{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: aqua;
+  font-size: 0.8vw;
+  padding: 0;
+  margin: 0;
+}
 #image-track{
   display:flex;
   gap:4vmin;
@@ -112,7 +124,7 @@ nav >ul > a {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
+  width: 85vw;
   display: inline;
   color:antiquewhite;
   font-family: "Courier New", monospace;
@@ -212,5 +224,22 @@ ul>div>img{
 
 
 #SatyaExplanation >img  {
-  width: 30vw;
+  width: 28vw;
+}
+#aboutMe {
+  width: 85vw;
+}
+#aboutMe>span{
+  font-family: Helvetica;
+  font-size: 1.2vw;
+}
+.text{
+  font-family: Helvetica;
+  font-size: 1.2vw;
+}
+.text>h1{
+  font-family: "Courier New";
+}
+.text-holder{
+  width:85vw;
 }
